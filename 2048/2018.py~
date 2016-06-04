@@ -73,13 +73,13 @@ class game(Frame):
 
 	def key_down(self, event):
 		key = repr(event.char)
-		if key == KEY_LEFT:
+		if key == KEY_LEFT_ALT:
 	       		valid = self.shift_left()
-		elif key == KEY_RIGHT:
+		elif key == KEY_RIGHT_ALT:
 			valid = self.shift_right()
-		elif key == KEY_UP:
+		elif key == KEY_UP_ALT:
 			valid = self.shift_up()
-		elif key == KEY_DOWN:
+		elif key == KEY_DOWN_ALT:
 			valid = self.shift_down()
 		else:
 			valid = False
