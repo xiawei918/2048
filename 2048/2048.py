@@ -35,7 +35,10 @@ class game(Frame):
 		Frame.__init__(self)
 		self.grid()
 		self.master.title('2048')
-		self.master.bind("<Key>", self.key_down)
+		self.master.bind("<Left>", self.shift_left)
+		self.master.bind("<Right>", self.shift_right)
+		self.master.bind("<Up>", self.shift_up)
+		self.master.bind("<Down>", self.shift_down)
 		self.grid_cells=[]
 		self.init_grid()
 
@@ -71,57 +74,16 @@ class game(Frame):
 			self.grid_cells.append(grid_row)
 
 
-	def key_down(self, event):
-		key = repr(event.char)
-		if key == KEY_LEFT:
-	       		valid = self.shift_left()
-		elif key == KEY_RIGHT:
-			valid = self.shift_right()
-		elif key == KEY_UP:
-			valid = self.shift_up()
-		elif key == KEY_DOWN:
-			valid = self.shift_down()
-		else:
-			valid = False
+	def after_press(self, valid):
 		if valid:
 			self.generate_new_num()
 			self.update_grid_cells()
-			valid=False
 			if self.win():
 				self.grid_cells[1][1].configure(text="You",bg=BACKGROUND_COLOR_CELL_EMPTY)
 				self.grid_cells[1][2].configure(text="Win!",bg=BACKGROUND_COLOR_CELL_EMPTY)
 			if self.loose():
 		       		self.grid_cells[1][1].configure(text="You",bg=BACKGROUND_COLOR_CELL_EMPTY)
 		       		self.grid_cells[1][2].configure(text="Lose!",bg=BACKGROUND_COLOR_CELL_EMPTY)
-	'''
-
-	def play(self):
-		self.display_board()
-		while not self.loose():
-			move = self.user_input()
-			valid = False
-			if move == 'a':
-				valid = self.shift_left()
-			if move == 'd':
-				valid = self.shift_right()
-			if move == 'w':
-				valid = self.shift_up()
-			if move == 's':
-				valid = self.shift_down()
-			if valid:
-				self.generate_new_num()
-			self.display_board()
-			if self.win():
-				print 'You win!'
-		print 'You loose!'
-	'''
-
-	def user_input(self):
-		move = str(raw_input("Enter your next move ((a) for left, (d) for right, (w) for up, (s) for down: "))
-		while move not in ['a','d','w','s']:
-			print 'Invalid entry.'
-			move = str(raw_input('Enter your next move ((a) for left, (d) for right, (w) for up, (s) for down: '))
-		return move
 
 
 	def rand_position(self):
@@ -138,20 +100,8 @@ class game(Frame):
 	def generate_new_num(self):
 		x,y = self.rand_position()
 		self.board[x][y] = self.two_or_four()
-		
 
-	def display_board(self):
-		print '-----------------'
-		for i in range(GRID_LEN):
-			for j in range(GRID_LEN):
-				print '|',
-				if self.board[i][j] == 0:
-					print ' ',
-				else:
-					print self.board[i][j],
-			print '|\n-----------------'
-
-	def shift_left(self):
+	def shift_left(self,event,aux=True):
 		valid = False
 		for num in range(GRID_LEN):
 			line = self.board[num]
@@ -174,26 +124,28 @@ class game(Frame):
 			self.board[num] = result
 			if line != result:
 				valid = True
+		if aux:
+			self.after_press(valid)
 		return valid
 
 
-	def shift_right(self):
+	def shift_right(self,event):
 		self.flip_board()
-		valid = self.shift_left()
+		valid = self.shift_left(event,False)
 		self.flip_board()
-		return valid
+		self.after_press(valid)
 
-	def shift_up(self):
+	def shift_up(self,event):
 		self.transpose()
-		valid = self.shift_left()
+		valid = self.shift_left(event,False)
 		self.transpose()
-		return valid
+		self.after_press(valid)
 
-	def shift_down(self):
+	def shift_down(self,event):
 		self.transpose()
-		valid = self.shift_right()
+		valid = self.shift_right(event,False)
 		self.transpose()
-		return valid
+		self.after_press(valid)
 
 	def empty_cells(self):
 		empty = []
