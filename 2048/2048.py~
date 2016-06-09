@@ -109,20 +109,19 @@ class game(Frame):
 			result = []
 			if sum(line) == 0:
 				self.board[num] = line
-			else:
-				for i in range(len(line)):
-					if line[i] != 0:
-						temp.append(line[i])
-				for i in range(len(temp)-1):
-					if temp[i] == temp[i+1]:
-						temp[i] += temp[i]
-						temp[i+1] = 0
-				for i in range(len(temp)):
-					if temp[i] != 0:
-						result.append(temp[i])
-				for i in range(len(result),len(line)):
-					result.append(0)
-				self.board[num] = result
+			for i in range(len(line)):
+				if line[i] != 0:
+					temp.append(line[i])
+			for i in range(len(temp)-1):
+				if temp[i] == temp[i+1]:
+					temp[i] += temp[i]
+					temp[i+1] = 0
+			for i in range(len(temp)):
+				if temp[i] != 0:
+					result.append(temp[i])
+			for i in range(len(result),len(line)):
+				result.append(0)
+			self.board[num] = result
 			if line != result:
 				valid = True
 		if aux:
