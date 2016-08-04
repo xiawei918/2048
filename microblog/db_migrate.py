@@ -1,4 +1,4 @@
-#!flask/bin/python
+#!flask/bin/python2.7
 import imp
 from migrate.versioning import api
 from app import db

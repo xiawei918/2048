@@ -1,0 +1,241 @@
+/Users/xiawei918/anaconda2/lib/python2.7/site-packages/numexpr/cpuinfo.py:76: UserWarning: [Errno 2] No such file or directory
+  stacklevel=stacklevel + 1):
+Total cost for 757-645-6869 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.5
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total (GB):                              31.35
+
+To:wex213@lehigh.edu
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+done!
+Total cost for 610-674-7796 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.4
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total (GB):                              31.35
+
+To:xiawei918@hotmail.com
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+done!
+/Users/xiawei918/anaconda2/lib/python2.7/site-packages/numexpr/cpuinfo.py:76: UserWarning: [Errno 2] No such file or directory
+  stacklevel=stacklevel + 1):
+Total cost for 757-645-6869 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.5
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total (GB):                              31.35
+
+To:wex213@lehigh.edu
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+done!
+Total cost for 610-674-7796 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.4
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total (GB):                              31.35
+
+To:xiawei918@hotmail.com
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+done!
+/Users/xiawei918/anaconda2/lib/python2.7/site-packages/numexpr/cpuinfo.py:76: UserWarning: [Errno 2] No such file or directory
+  stacklevel=stacklevel + 1):
+/Users/xiawei918/anaconda2/lib/python2.7/site-packages/numexpr/cpuinfo.py:76: UserWarning: [Errno 2] No such file or directory
+  stacklevel=stacklevel + 1):
+Total cost for 757-645-6869 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.5
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total ($):                               31.35
+
+To:wex213@lehigh.edu
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+
+ The following banks are eligible for transfer:
+ Wells Fargo
+ Bank Of American
+
+ Please use wex213 at lehigh dot edu for money transfer.
+
+ If you have any questions, please contact wex213.
+
+done!
+Total cost for 610-674-7796 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.4
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total ($):                               31.35
+
+To:xiawei918@hotmail.com
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+
+ The following banks are eligible for transfer:
+ Wells Fargo
+ Bank Of American
+
+ Please use wex213 at lehigh dot edu for money transfer.
+
+ If you have any questions, please contact wex213.
+
+done!
+/Users/xiawei918/anaconda2/lib/python2.7/site-packages/numexpr/cpuinfo.py:76: UserWarning: [Errno 2] No such file or directory
+  stacklevel=stacklevel + 1):
+Total cost for 757-645-6869 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.5
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total ($):                               31.35
+
+To:wex213@lehigh.edu
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+
+ The following banks are eligible for transfer:
+ Wells Fargo
+ Bank Of American
+
+ Please use wex213 at lehigh dot edu for money transfer.
+
+ If you have any questions, please contact wex213.
+
+done!
+Total cost for 610-674-7796 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.4
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total ($):                               31.35
+
+To:xiawei918@hotmail.com
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+
+ The following banks are eligible for transfer:
+ Wells Fargo
+ Bank Of American
+
+ Please use wex213 at lehigh dot edu for money transfer.
+
+ If you have any questions, please contact wex213.
+
+done!
+Traceback (most recent call last):
+  File "./att.py", line 147, in <module>
+    result = calculate_fee(f_name,"610-674-7796")
+  File "./att.py", line 121, in calculate_fee
+    total_cost[str(key)] = round(temp + 10 + float(base_cost[key]),2)
+KeyError: '484-633-8040'
+/Users/xiawei918/anaconda2/lib/python2.7/site-packages/numexpr/cpuinfo.py:76: UserWarning: [Errno 2] No such file or directory
+  stacklevel=stacklevel + 1):
+Total cost for 484-934-2156 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.5
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total ($):                               31.35
+
+To:xiawei918@hotmail.com
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+done!
+Total cost for 757-645-6869 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.5
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total ($):                               31.35
+
+To:wex213@lehigh.edu
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+done!
+Total cost for 610-674-7796 in month 07/2016 is $31.35.
+================ Cost Summary ================
+Base ($):                                21.35
+Data ($):                                 10.0
+================ Data Summary ================
+Data used (GB):                            1.4
+Data overage (GB):                           0
+Overage percentage (%):                    0.0
+Overage cost (S):                          0.0
+==================== Total ====================
+Total ($):                               31.35
+
+To:yuh212@lehigh.edu
+From: xiawei27149@gmail.com
+Subject: Phone bill for 07/2016
+
+done!
